@@ -1,0 +1,93 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  padding-top: 35px;
+    /*
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    */
+}
+
+.screen-header__title {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}
+
+@keyframes rotateCog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(180deg) scale(1.5);
+    color: var(--white);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover,
+.screen-header__icons .fa-cog:active {
+  animation: rotateCog 1s linear infinite;
+}
+
+@keyframes expandShied {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: var(--white);
+  }
+  0% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-shield-alt:hover,
+.screen-header__icons .fa-shield-alt:active {
+  animation: expandShied 1s linear infinite;
+}
+
+@keyframes rotateSearch {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(1.5) rotateZ(180deg);
+    color: var(--white);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-search:active {
+  animation: rotateSearch 1s linear infinite;
+}
+
+@keyframes flipComment {
+  0% {
+    transform: rotateX(0);
+  }
+  50% {
+    transform: rotateX(-180deg);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+
+.screen-header__icons .fa-comment-dots:hover,
+.screen-header__icons .fa-comment-dots:active {
+  animation: flipComment 1s linear infinite;
+}

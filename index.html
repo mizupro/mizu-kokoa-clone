@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to Skyrim</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>05:51</span>
+                <i class="fas fa-wifi fa"></i>
+            </div>
+            <div class="status-bar__column"></div>
+            <div class="status-bar__column">
+                <i class="fas fa-signal fa"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span>5G</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to Skyrim</h1>
+            <p class="welcome-header__text">Welcome to the roof of the Empire.</p>
+        </header>
+
+        <form action="home.html" method="get" id="login-form">
+            <input name="username" type="text" placeholder="Email or phone number" required />
+            <input name="password" type="password" placeholder="Password" required />
+            <input type="submit" value="Log In" />
+            <input type="submit" value="Sign Up" />
+            <a href="#">Find your Account or Password</a>
+        </form>
+
+        <div id="no-mobile">
+            <i class="fas fa-compress-arrows-alt"></i>
+            <span>Reduce your screen size</span>
+            <i class="fas fa-compress-arrows-alt"></i>
+        </div>
+
+        <script src="https://kit.fontawesome.com/6f59f71b8b.js" crossorigin="anonymous"></script>
+    </body>
+</html>

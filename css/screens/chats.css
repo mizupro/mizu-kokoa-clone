@@ -1,0 +1,17 @@
+.chats-screen .user-component {
+  margin-bottom: 15px;
+}
+
+.chats-screen .user-component__subtitle {
+  font-size: 1.6rem;
+}
+
+.chats-screen .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chats-screen a:last-child .user-component__column:last-child .badge {
+    opacity: 0;
+}
