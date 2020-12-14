@@ -3,7 +3,7 @@
 }
 
 .home-screen__home {
-  margin: 25px 0 90px 0;
+  margin: 25px 0;
   border-top: var(--main-border);
   padding-top: 15px;
   display: flex;
@@ -19,7 +19,6 @@
 }
 
 .home-screen__home .user-component {
-    
 }
 
 @keyframes hideSplashScreen {
@@ -51,5 +50,5 @@
 }
 
 .home-screen__home .user-component {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
