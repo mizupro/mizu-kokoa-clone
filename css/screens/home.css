@@ -3,7 +3,7 @@
 }
 
 .home-screen__home {
-  margin: 25px 0;
+  margin: 25px 0 25px 0;
   border-top: var(--main-border);
   padding-top: 15px;
   display: flex;
