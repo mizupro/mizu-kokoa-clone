@@ -2,10 +2,8 @@
   padding: 0 var(--horizontal-space);
 }
 
-/* test */
-
 .home-screen__home {
-  margin: 25px 0 25px 0;
+  margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
   display: flex;
